@@ -5,7 +5,7 @@
 * 22 y.o.
 * Moscow
 
-###Contacts
+### Contacts
 * E-mail: **goltseva.angelina@gmail.com**
 * Telegram: **yungleana**
 * Discord: **yungleana#2206**
@@ -18,7 +18,7 @@ Bachelor of Tourism
 **2017 - now** 
 *Russian Presidential Academy of National Economy and Public Administration (RANEPA), Chelyabinsk*
 
-###Skills
+### Skills
 **Russian** Native
 **English** B2
 **Spanish** A2
