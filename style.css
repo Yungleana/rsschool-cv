@@ -197,6 +197,11 @@ main{
     display: flex;
 }
 
+.rs_school_logo{
+    width: 100px;
+    height: 75px;
+}
+
 .copyright{
     display: flex;
     margin-left: auto;
