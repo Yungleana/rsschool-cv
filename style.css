@@ -1,1 +1,225 @@
-# Draft
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #9acd32, #006400);
+}
+
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    margin-bottom: 0px;
+    display: flex;
+    border-radius: 50px;
+}
+
+.left{
+    background:rgb(0, 51, 51);
+    width: 275px;
+    padding: 0 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.right{
+    width: calc(100% - 275px);
+}
+
+.img_box{
+    text-align: center;
+    padding: 20px 0;
+}
+.img_box img{
+    width: 200px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #fff;
+    border-width: 3px;  
+}
+
+.contact_box{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #ffcc33;
+    position: relative;
+    text-align: center;
+}
+
+.icon{
+    color: #ffcc33;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.scale{
+    justify-content: space-between;
+}
+
+#scale1,
+#scale3{
+    color: #339933;
+}
+
+#scale2,
+#scale4,
+#scale5{
+    color: #ffcc33;
+}
+
+.li_box{
+    display: flex;
+    margin: 5px;
+}
+
+.text{
+    color: #ffcc33;
+    font-size: 15px;
+    word-break: break-word;
+    align-items: left;
+    margin-left: 2px;
+}
+
+.skills ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .li_box,
+.hobbies .li_box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: #ffcc33;
+    border-radius: 15px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .li_box .text,
+.hobbies .li_box .text{
+    margin-top: 5px;
+}
+
+header{
+    background: rgb(0, 51, 51, 0.6);
+    padding: 15px 30px;
+    color: #fff;
+    height: 240px;
+    border-top-right-radius: 50px;
+}
+
+.name{
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffcc33;
+}
+
+.role{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffcc33;
+}
+
+.about{
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+main{
+    padding: 10px;
+}
+
+.experience{
+    margin-top: 20px;
+}
+
+.education{
+    margin-top: 30px;
+}
+
+.li_box{
+     display: flex;
+     margin-bottom: 15px;
+}
+
+.date{
+     font-size: 20px;
+     width: 125px;
+     margin-left: 5px;
+     font-weight: 600;
+     color:#339933;
+}
+
+.info{
+     width: calc(100% - 125px);
+     position: relative;
+}
+
+.info_title{
+     font-size: 20px;
+     font-weight: 600;
+     color: #339933;
+}
+
+.info_company{
+     font-weight: 600;
+}
+
+.info_university{
+    font-weight: 600;
+}
+
+.footer_box{
+    width: 800px;
+    background: transparent;
+    margin: 25px auto;
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+}
+
+.copyright{
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.course_link{
+    padding-left: 10px;
+}
+
+.github_box{
+    font-size: 45px;
+    padding: 9px 10px 30px 30px;
+    display: flex;
+    margin-left: auto;
+    color: #000;
+}
+
+.github_icon{
+    color: #000;
+}
+
+.github_icon:hover{
+    color: #660066;
+}
