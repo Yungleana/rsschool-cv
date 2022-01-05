@@ -204,6 +204,11 @@ main{
     font-weight: 600;
 }
 
+.rs_school_logo{
+    width: 100px;
+    height: 75px;
+}
+
 .course_link{
     padding-left: 10px;
 }
